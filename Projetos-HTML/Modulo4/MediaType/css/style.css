@@ -1,0 +1,16 @@
+                 @charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #39aae1;
+    color: white;
+    font-family: arial, Helvetica,sans-serif;
+}
+h1{
+    padding: 10px;
+    text-shadow: 2px 2px 0px #222;
+}

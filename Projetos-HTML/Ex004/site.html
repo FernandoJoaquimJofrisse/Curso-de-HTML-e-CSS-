@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Posicionamento de background</title>
+    <style>
+        body{
+            //background-color: #39aae1;
+        }
+        #content{
+            background-image: url('../img/target001.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 97vh;
+            background-color: purple;
+            border: 1px solid darkblue;
+        }
+        #conteudo{
+            background-image: url('../img/target001.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            left: 50%;
+            top: 52%;
+            transform: translate(-50%, -1%);
+        }
+    </style>
+</head>
+<body>
+<section id="content">
+    <article id="conteudo">
+
+    </article>
+</section>
+</body>
+</html>

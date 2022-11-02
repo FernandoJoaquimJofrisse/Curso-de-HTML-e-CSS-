@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Colorindo colunas das tabalas</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid #383838;
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption{
+            font-family: arial;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #222;
+            padding: 5px;
+            border: 1px solid #383838;
+        }
+        .cnome, .csexo{
+            background-color: #39aae1;
+            
+        }
+        .cidade, .cprofi{
+            background-color: #CCC;
+        }
+        #content{
+            overflow-x:auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Montando um tabela</h1>
+    <div id="content">
+        <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="csexo">
+            <col class="cprofi">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profição</th>
+                <th scope="col">Profição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fernando</td>
+                <td>Fernando</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Programador</td>
+            </tr><tr>
+                <td>Cheila</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Programador</td>
+            </tr><tr>
+                <td>Tereza</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Programador</td>
+            </tr><tr>
+                <td>Marília</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Programador</td>
+            </tr><tr>
+                <td>Fernanda</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Mateus</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Programador</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>

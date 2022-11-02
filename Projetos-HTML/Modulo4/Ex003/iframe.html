@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-MZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Usando iframe no site</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: blue;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="site.html" target="frame">primeiro site</a><br/>
+        <a href="web.html" target="frame">segundo site</a><br/>
+        <a href="website.html" target="frame">terceiro site</a><br/>
+    </header>
+    <main>
+        <iframe name="frame" frameborder="2" width="600px" srcdoc="<h1>Meu iframe</h1><p>lorem</p>">
+
+        </iframe>
+    </main>
+</body>
+</html>
