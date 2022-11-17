@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* tamanho em pé*/
+body{
+    background-image: url(../img/cev-portrait.jpg);
+}
+h1{
+    font-size: 1.5em;
+}
