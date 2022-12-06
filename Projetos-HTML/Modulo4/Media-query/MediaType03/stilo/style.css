@@ -1,0 +1,84 @@
+
+@font-face{
+    font-family: 'NerkoOne';
+    src: url('../font/Pacifico-Regular.ttf') format('truetype');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: NerkoOne;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+html{
+    //width: 90vw;
+
+}
+
+body{
+    background: #222 url('../img/back-phone.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+header{
+        background-color: #39aae1;
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        border-radius: 20px;
+}
+h1{
+    font-size: 3em;
+    font-transform: capitalize;
+    color: #fff;
+
+}
+#content,#content1{
+    color: #222;
+    text-align: center;
+}
+main{
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(255,255,255,0.842);
+    padding: 20px;
+    border-radius: 20px;
+}
+p{
+    border: 2px solid #39aae1;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+#foot{
+
+    text-align: center;
+    text-transform: capitalize;
+}
+#foot a{
+    text-decoration: none;
+    color: #39aae1;
+}
+#foot a:hover{
+    background: #39aae1;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+}
+#link{
+    margin-top: 10px;
+}
+footer{
+    margin: auto;
+    text-align: center;
+}
+picture,img{
+    margin: auto;
+}
+#pc{display: none;}
+#phone{display: block;}
+#impressora{display: none;}
+#tablete{display: none;}
+#tv{display: none;}

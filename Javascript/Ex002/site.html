@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-MZ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pegando dados de input</title>
+    <style>
+        @font-face{
+            font-family: open-Sans;
+            src: url(font/Roboto-BlackItalic.ttf);
+        }
+        @font-face{
+            font-family: Roboto-black;
+            src: url(font/Vollkorn-VariableFont_wght.ttf);
+        }
+
+        label{
+            font-family: open-Sans;
+            font-size: 1.6lem;
+        }
+        input{
+            width: 300px;
+            height: 50px;
+            margin-bottom: 10px;
+            border: 2px solid #000;
+            border-radius: 5px;
+            text-indent: 10px;
+            font-family: Roboto-black;
+        }
+
+        #div{
+            font-family: Roboto-Bold;
+        }
+        #put{
+            width: 100px;
+            height: 50px;
+
+        }
+        #put:hover{
+            background-color: #f00;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<form action="get">
+    <label for="txt1">Digite seu Nome:</label>
+    <input type="text" name="txt1" id="txt1"><br/>
+    <label for="txt2">Digite-sobrenome:</label>
+    <input type="text" name="txt2" id="txt2"><br/>
+    <label for="ano">Ano de nascimento</label>
+    <input type="number" name="ano" id="ano">
+</form>
+    <input type="submit" id="put" value="enviar" onclick="enviar()">
+    <div id="res">
+        Resposta
+    </div>
+
+<script src="site.js"></script>
+</body>
+</html>

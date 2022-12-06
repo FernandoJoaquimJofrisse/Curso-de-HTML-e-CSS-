@@ -1,0 +1,63 @@
+
+@font-face{
+    font-family:Vollkorn;
+    src: url('../font/Vollkorn-BlackItalic.ttf');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+   font-family: Vollkorn;
+}
+html,body{
+    background-image: linear-gradient(to left,#39aae1,darkblue,#39aae1);
+}
+header{
+    background-color: #0E0E52;
+}
+header,h1{
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+}
+#hamburgMenu{
+    display: block;
+    font-size: 3em;
+    background-color: #222;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav{
+    display: none;
+}
+nav > ul{
+    list-style: none;
+}
+nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: darkblue;
+
+}
+nav > ul > li > a:hover{
+    background-color: #31aae1;
+}
+main{
+    width: 90vw;
+    background-color: #31aae1;
+    color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+main > p{
+    padding: 20px;
+    text-indent: 20px;
+    font-size: 1.5em;
+}
