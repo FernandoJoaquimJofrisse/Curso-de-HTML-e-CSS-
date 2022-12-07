@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device=width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <link rel="stylesheet" href="stilo/style.css">
+    <link rel="stylesheet" href="stilo/mediaquery.css">
     <title>Trabalhando com os conseitos de mobilifirste</title>
 </head>
 
-<body>
+<body onresize="mudouTamnho()">
 <header>
     <div id="logo">
         <h1>Menu hamburger</h1>
     </div>
-    <i id="hamburgMenu" onclick="Menu()">&#x2261;</i>
+     <i id="hamburgMenu" onclick="Menu()"><img src="icon/menu.png" id="meny" alt="menuhamburguer"></i>
     <nav id="items">
         <ul>
             <li><a href="#">HOME</a></li>
@@ -29,7 +30,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
         dignissimos error eveniet, exercitationem, ipsa itaque laudantium magni minus
         odit perferendis porro quis saepe sequi. Ea laborum nostrum sunt tempora
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi
+        Lorem ipsum dolor sit &#x2261;amet, consectetur adipisicing elit. Adipisci animi
         cumque debitis iusto magni nihil quasi quod sint! Ab atque culpa eligendi
         eos error in nulla quas repellat tempora velit?
     </p>
@@ -45,6 +46,13 @@
     </p>
 </main>
 <script>
+    function mudouTamnho(){
+        if(window.innerWidth >= 768){
+            items.style.display = 'block'
+        }else{
+            items.style.display = 'none'
+        }
+    }
 
     function Menu(){
         if(items.style.display == 'block'){

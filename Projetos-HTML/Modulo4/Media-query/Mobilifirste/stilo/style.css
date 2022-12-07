@@ -26,10 +26,12 @@ h1{
     display: block;
     font-size: 3em;
     background-color: #222;
-    padding: 10px;
+    //padding: 10px;
     cursor: pointer;
 }
-
+#meny{
+   color: #fff;
+}
 nav{
     display: none;
 }
